@@ -50,7 +50,7 @@ new Vue({
                     this.playerHealth += 10
                     this.playerHealth = Math.max(this.playerHealth-this.calculDamage(5,12),0);
                     this.turns.unshift({
-                         isPlayer: true,
+                         isPlayer: true ,
                          text: 'Player heal for: 10 '
                     })
                     this.checkResult()
